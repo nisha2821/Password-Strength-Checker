@@ -1,4 +1,3 @@
- 
 password = input("Enter your password: ")
 has_upper=False
 has_lower=False
