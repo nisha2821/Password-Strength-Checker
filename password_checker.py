@@ -14,8 +14,8 @@ for char in password:
     if char in "!@#$%^&*":
         has_special=True
 if len(password)>=8 and has_upper and has_lower and has_digit and has_special:
-    print("strong password:")
+    print("strong password.")
 else:
-    print("weak password:")
+    print("weak password.")
 
 
